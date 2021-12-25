@@ -125,85 +125,106 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    
+
 }
 
-#right-about{
-    padding-top:30px;
-    width:33%;
-    float:right;
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
 }
 
-#center-about{
-   
+#center-about {
+
     width: 33%;
     margin: 0 auto;
-    
+
 }
 
-hr{
+hr {
     border-top: 1px solid #3a3a3a;
-    width:100%;
+    width: 100%;
     margin: 5px;
 }
 
-.left-about-heading{
-   width: 60%;
-   float: right;
-   line-height: 20px; 
-   clear: both;
-   margin-bottom: 50px; 
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
-.right-about-heading{
+.right-about-heading {
     width: 60%;
     float: left;
-    line-height: 20px; 
+    line-height: 20px;
     clear: both;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
-.right-about-heading h2{
+.right-about-heading h2 {
     text-align: right;
 }
 
-.right-about-heading p{
+.right-about-heading p {
     text-align: right;
 }
 
-#welcome{
+#welcome {
     text-align: center;
     margin: 20px 0;
-    font-size: 280% ;
+    font-size: 280%;
 }
 
-#circle-container{
-    width:300px;
-    height:300px;
+#circle-container {
+    width: 300px;
+    height: 300px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
-    border-radius:50%;
+    border-radius: 50%;
     margin: 0 auto;
 }
 
 
-#circle-cover-bg{
+#circle-cover-bg {
     background: url('../images/ethos-center-image.jpg') no-repeat center center;
-    height:100%;
-    width:100%;
-    border-radius:50%;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
 
 }
 
 /*event times*/
 
-#times{
+#times {
     background-image: url('../images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:100%;
+    width: 100%;
     overflow: hidden;
-  }
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    
+}
+
+#times h2{
+    color: #fafafa;
+}
+
+#social-media li{
+    float:left;
+    
+    }
