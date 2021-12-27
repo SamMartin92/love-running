@@ -217,14 +217,31 @@ hr {
     padding: 30px 0 0 10px;
     border: 2px solid white;
     box-sizing: border-box;
-    
+
 }
 
-#times h2{
+#times h2 {
     color: #fafafa;
 }
 
-#social-media li{
-    float:left;
-    
-    }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align:center;
+}
+
+.social-media > li {
+    display:inline;
+}
+
+.social-media i{
+    font-size: 160%;
+    margin:1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
